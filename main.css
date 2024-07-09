@@ -1,0 +1,117 @@
+*{
+    font-family: poppins;
+}
+body{
+    margin: 0px;
+}
+.container{
+    
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0px;
+    margin: 0px 100px;
+}
+.container *{
+    vertical-align: middle;
+    
+}
+.container .menu ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type:none;
+    position: relative;
+}
+.container .menu li{
+    display: inline-block;
+    
+}
+.container .menu > ul > li > a{
+    color: black;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 12px;
+    margin-left: 27px;
+}
+.container .menu a{
+    color: black;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 12px;
+}
+.container .menu a:hover{
+    color: #8490ff;
+    transition: .25s;
+}
+
+.container .menu a:focus{
+    color: #8490ff;
+}
+.container .menu i{
+    font-size: 8px;
+    margin-left: 10px;
+}
+.container .menu > ul > li > ul {
+    position: absolute;
+    left: 45%;
+    top: 20px;
+    width: max-content;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    opacity: 0;
+    
+}
+.container .menu > ul > li > ul > li{
+    display: block;
+    padding: 10px 10px;
+    width: 150px;
+    height: 25px;
+}
+
+.container .menu > ul > li:hover > ul{
+    opacity: 1;
+}
+.section{
+    background-color: #f9f9ff;
+    display: flex;
+    justify-content: center;
+    
+}
+.section .left{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+}
+.section .left .h6{
+    margin-bottom: 30px;
+}
+.section .left .h6 h6{
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 17px;
+    margin: 00px 0px 0px 0px;
+    height: 0px;
+}
+.section .left .h1 h1{
+    font-size: 60px;
+    margin: 0;
+}
+.section .left .p p{
+    margin-top: 0;
+    color: rgb(133, 133, 133);
+    font-size: 14px;
+}
+.section .left .discover{
+    margin-top: 10px;
+}
+.section .left .discover a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+    padding: 10px 30px;
+    color: #fff;
+    
+}
